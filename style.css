@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-body {
-    font-family: 'Roboto', serif;
+body{
+    font-family: 'Roboto slab', serif;
 }
 
-.first-section {
+.first-section{
     background-color: #1F2937;
 
 }
-   #header-logo {
+   #header-logo{
     font-size: 24px;
     color: #f9faf8;
    }
 
-   .header-link {
+   .header-link{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 10px;
    }
 
    .nav{
@@ -28,6 +31,7 @@ body {
    ul{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
    }
 
    .nav-left,.nav-right{
@@ -36,15 +40,53 @@ body {
     justify-content: center;
     align-items: center;
    }
+   .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+   }
 
-   h1 {
+   h1{
     font: 48px;
     font-weight: bolder;
     color: #f9faf8;
    }
-   .content-left,.content-right{
+   .content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+   }
+   .content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   }
+
+   .content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+    }
+
+   img {
+    margin: 50px;
+   }
+
+   .p-first{
+    font-size: 18px;
+    color: #e5e7eb;
+   
+   }
+
+   .sign-up-first-section{
+    background-color: #3882f6;
+    color: #fff;
+    width: 100px;
+    height: 25px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+    
    }
